@@ -1,0 +1,36 @@
+{
+  "name": "@foundernetes/dbug",
+  "description": "A simple debug helper to replace console.log, using the power of util.inspect",
+  "version": "1.0.0",
+  "type": "commonjs",
+  "main": "index.js",
+  "author": "devthejo",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/devthejo/dbug.git"
+  },
+  "bugs": {
+    "url": "https://github.com/devthejo/dbug/issues"
+  },
+  "homepage": "https://github.com/devthejo/dbug",
+  "keywords": [
+    "dbug",
+    "debug",
+    "console",
+    "console.log",
+    "console.dir",
+    "helper"
+  ],
+  "packageManager": "yarn@3.5.0",
+  "scripts": {
+    "lint": "standard",
+    "release": "commit-and-tag-version",
+    "push": "git push && git push --tags",
+    "delivery": "yarn release && yarn push && npm publish --access=public"
+  },
+  "devDependencies": {
+    "commit-and-tag-version": "^11.2.1",
+    "standard": "^17.0.0"
+  }
+}
