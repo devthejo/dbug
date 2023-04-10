@@ -25,7 +25,7 @@ main()
 ```
 
 output:
-```json
+```
 {
   source: '/path/to/my-project/index.js:5:3 (main)',
   var: 'bar',
